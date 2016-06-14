@@ -11,3 +11,6 @@ bingo!
 Maybe i will add the right/top/bottom slider. You can also add them by yourself.
 Just Add some Swipe Gesture with their Directrions to do the open/close Function.
 After All,it's so easy! I believe you can add them .
+
+
+![](https://github.com/wwj405098620/Images/blob/master/WJTextView.gif)
