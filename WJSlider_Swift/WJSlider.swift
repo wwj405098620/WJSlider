@@ -21,6 +21,11 @@ protocol WJLeftSlider : WJSlider{
      * 关闭左边栏
      */
     func closeLeftSliderController()
+    
+    /*
+     * 设置侧边栏
+     */
+    mutating func setUpLeftSlider(left:UIViewController)
 }
 
 

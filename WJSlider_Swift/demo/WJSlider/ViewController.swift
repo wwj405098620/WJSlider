@@ -11,6 +11,7 @@ import UIKit
 
 
 class BaseNavigationController: UINavigationController,WJLeftSlider{
+
 }
 
 class ViewController: UIViewController{
