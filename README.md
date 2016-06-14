@@ -3,7 +3,7 @@ LeftSlider,Swift,lightweight,Not Object,Is Port. Not any more
 
 You know how to use it when you open this project! 
 
-Just let the parentcontroller confrom to the protocol <WJLeftSlider>, 
+Just let the parentcontroller confrom to the protocol "WJLeftSlider", 
 then write code only one line! 
 parentcontroller.setupLeftController(the left controller).
 bingo!
