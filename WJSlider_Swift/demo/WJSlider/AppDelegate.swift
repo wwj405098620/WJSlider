@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  WJSlider
 //
-//  Created by 王文杰 on 16/6/13.
-//  Copyright © 2016年 王文杰. All rights reserved.
+//  Created by WenJie on 16/6/13.
+//  Copyright © 2016年 WenJie. All rights reserved.
 //
 
 import UIKit
