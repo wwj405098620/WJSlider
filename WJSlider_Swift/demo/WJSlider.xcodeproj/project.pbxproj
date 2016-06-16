@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0ABF821D1239D10004F33F /* WJSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0ABF811D1239D10004F33F /* WJSlider.swift */; };
 		CBEFCED81D0E881A008DCBB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFCED71D0E881A008DCBB4 /* AppDelegate.swift */; };
 		CBEFCEDA1D0E881A008DCBB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFCED91D0E881A008DCBB4 /* ViewController.swift */; };
 		CBEFCEDD1D0E881A008DCBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEFCEDB1D0E881A008DCBB4 /* Main.storyboard */; };
 		CBEFCEDF1D0E881A008DCBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEFCEDE1D0E881A008DCBB4 /* Assets.xcassets */; };
 		CBEFCEE21D0E881A008DCBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEFCEE01D0E881A008DCBB4 /* LaunchScreen.storyboard */; };
 		CBEFCEEA1D0E88B6008DCBB4 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFCEE91D0E88B6008DCBB4 /* LeftViewController.swift */; };
-		CBEFCEEC1D0EB070008DCBB4 /* WJSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFCEEB1D0EB070008DCBB4 /* WJSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB0ABF811D1239D10004F33F /* WJSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WJSlider.swift; path = ../../WJSlider.swift; sourceTree = "<group>"; };
 		CBEFCED41D0E881A008DCBB4 /* WJSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEFCED71D0E881A008DCBB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBEFCED91D0E881A008DCBB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		CBEFCEE11D0E881A008DCBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEFCEE31D0E881A008DCBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBEFCEE91D0E88B6008DCBB4 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
-		CBEFCEEB1D0EB070008DCBB4 /* WJSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		CBEFCED61D0E881A008DCBB4 /* WJSlider */ = {
 			isa = PBXGroup;
 			children = (
-				CBEFCEEB1D0EB070008DCBB4 /* WJSlider.swift */,
+				CB0ABF811D1239D10004F33F /* WJSlider.swift */,
 				CBEFCED71D0E881A008DCBB4 /* AppDelegate.swift */,
 				CBEFCED91D0E881A008DCBB4 /* ViewController.swift */,
 				CBEFCEE91D0E88B6008DCBB4 /* LeftViewController.swift */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBEFCEEA1D0E88B6008DCBB4 /* LeftViewController.swift in Sources */,
-				CBEFCEEC1D0EB070008DCBB4 /* WJSlider.swift in Sources */,
+				CB0ABF821D1239D10004F33F /* WJSlider.swift in Sources */,
 				CBEFCEDA1D0E881A008DCBB4 /* ViewController.swift in Sources */,
 				CBEFCED81D0E881A008DCBB4 /* AppDelegate.swift in Sources */,
 			);
@@ -294,6 +294,7 @@
 				CBEFCEE81D0E881A008DCBB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
