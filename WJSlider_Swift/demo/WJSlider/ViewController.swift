@@ -15,14 +15,8 @@ class BaseNavigationController: UINavigationController,WJLeftSlider{
 }
 
 class ViewController: UIViewController{
-    @IBAction func openLeft(sender: AnyObject) {
-        let nav = self.navigationController as! BaseNavigationController
-        nav.openLeftSliderController()
-    }
-    @IBAction func closeLeft(sender: AnyObject) {
-        let nav = self.navigationController as! BaseNavigationController
-        nav.closeLeftSliderController()
-    }
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.blueColor()
@@ -31,7 +25,26 @@ class ViewController: UIViewController{
         nav.setUpLeftSlider(leftController)
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        var nav = self.navigationController as! BaseNavigationController
+        nav.enableSlider = false
+    }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        var nav = self.navigationController as! BaseNavigationController
+        nav.enableSlider = true
+    }
+    @IBAction func openLeft(sender: AnyObject) {
+        let nav = self.navigationController as! BaseNavigationController
+        nav.openLeftSliderController()
+    }
+    @IBAction func closeLeft(sender: AnyObject) {
+        let nav = self.navigationController as! BaseNavigationController
+        nav.closeLeftSliderController()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

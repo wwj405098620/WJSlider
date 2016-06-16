@@ -9,7 +9,6 @@
 import UIKit
 private var WJAssociationKey_LeftController: UInt8 = 0
 private var WJAssociationKey_EnableLeftController: UInt8 = 0
-private var WJAssociationKey_LeftControllerGestures: UInt8 = 0
 
 protocol WJSlider{}
 
@@ -31,6 +30,7 @@ protocol WJLeftSlider : WJSlider{
      */
     mutating func setUpLeftSlider(left:UIViewController)
 }
+
 
 
 extension UIViewController{
@@ -60,7 +60,7 @@ extension UIViewController{
 
 extension WJLeftSlider where Self:UIViewController{
     /*
-     * 控制手势响应(demo中的vc是navigationcontroller,一般viwdisappear时设为NO,防止push到下级页面时手势依然起作用与别的手势冲突)
+     * 控制手势响应(demo中的vc是navigationcontroller,一般viwdisappear时设为NO,防止push到下级页面时手势依然起作用与下级页面别的手势冲突)
      */
     var enableSlider : Bool? {
         get{
@@ -156,3 +156,7 @@ extension WJLeftSlider where Self:UIViewController{
         
     }
 }
+
+
+
+
